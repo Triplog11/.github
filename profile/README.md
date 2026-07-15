@@ -136,7 +136,7 @@ Triplog는 서비스 구현과 데이터 모델링 산출물을 분리하기 위
 
 | 저장소                                                                         | 담당 영역         | 설명                                               |
 | --------------------------------------------------------------------------- | ------------- | ------------------------------------------------ |
-| [triplog_app](https://github.com/Triplog11/triplog_app)                     | Application   | Triplog 애플리케이션과 백엔드 서버, 기획 문서 및 공통 협업 규칙을 관리합니다. |
+| [triplog-app](https://github.com/Triplog11/triplog-app)                     | Application   | Triplog 애플리케이션과 백엔드 서버, 기획 문서 및 공통 협업 규칙을 관리합니다. |
 | [triplog-data-modeling](https://github.com/Triplog11/triplog-data-modeling) | Data Modeling | 서비스의 개념·논리·물리 데이터 모델과 ERD 설계 산출물을 관리합니다.         |
 
 각 저장소의 구체적인 구현 기능, 기술 스택, 내부 구조와 개발 규칙은 해당 저장소의 README에서 확인할 수 있습니다.
@@ -147,7 +147,7 @@ Triplog는 서비스 구현과 데이터 모델링 산출물을 분리하기 위
 
 ```mermaid
 flowchart TB
-    App[triplog_app<br/>모바일 서비스]
+    App[triplog-app<br/>모바일 서비스]
     Backend[Spring Boot Backend]
     Modeling[triplog-data-modeling<br/>데이터 모델 및 ERD]
     TourAPI[한국관광공사 TourAPI]
