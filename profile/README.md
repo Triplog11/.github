@@ -9,7 +9,7 @@
 
 <br/>
 
-**2026 관광데이터 활용 공모전 프로젝트**
+[**2026 관광데이터 활용 공모전 프로젝트**](https://api.visitkorea.or.kr/#/cntSearchDetail?no=1)
 
 <br/>
 
