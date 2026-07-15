@@ -147,14 +147,14 @@ Triplog는 서비스 구현과 데이터 모델링 산출물을 분리하기 위
 
 ```mermaid
 flowchart TB
-    App[triplog_app<br/>모바일 서비스 및 백엔드]
-    Modeling[triplog-data-modeling<br/>데이터 모델 및 ERD]
+    App[triplog_app<br/>모바일 서비스]
     Backend[Spring Boot Backend]
+    Modeling[triplog-data-modeling<br/>데이터 모델 및 ERD]
     TourAPI[한국관광공사 TourAPI]
     Database[(MySQL)]
     Redis[(Redis)]
 
-    App -->|사용자 요청| Backend
+    App -->|API 요청| Backend
 
     Backend -->|관광정보 조회| TourAPI
     Backend -->|서비스 데이터 저장| Database
@@ -164,7 +164,7 @@ flowchart TB
     Backend -->|API 응답| App
 ```
 
-애플리케이션과 데이터 모델링 저장소는 독립적으로 관리되지만, 서비스 정책과 데이터 관계를 기준으로 연결됩니다.
+애플리케이션과 데이터 모델링 저장소는 독립적으로 관리되지만 서비스 정책과 데이터 관계를 기준으로 연결됩니다.
 
 ---
 
@@ -246,9 +246,9 @@ GPS 인증이 어려운 경우 현장에서 촬영한 사진을 활용하여 보
 
 ### XP와 레벨
 
-방문 인증, 새로운 지역 방문, 미션 완료 등의 활동에 따라 XP를 획득합니다.
+방문 인증, 새로운 지역 방문과 미션 완료 등의 활동에 따라 XP를 획득합니다.
 
-누적된 XP를 기준으로 레벨이 상승하며, 사용자의 장기적인 활동량과 성장 상태를 보여줍니다.
+누적된 XP를 기준으로 레벨이 상승하며 사용자의 장기적인 활동량과 성장 상태를 보여줍니다.
 
 ### 배지
 
@@ -298,6 +298,70 @@ TourAPI의 공공 관광정보에 사용자 방문 인증 데이터를 결합하
 * 관광지별 만족도
 * 관광 유형별 선호도
 * 미션 참여 현황
+
+---
+
+## 팀원 소개
+
+<table align="center">
+  <tr>
+    <td align="center" width="180">
+      <a href="https://github.com/WhiteBin-bin">
+        <img src="https://github.com/WhiteBin-bin.png" width="120" height="120" alt="백현빈"/>
+        <br/>
+        <b>백현빈</b>
+      </a>
+      <br/>
+      Backend
+    </td>
+    <td align="center" width="180">
+      <a href="https://github.com/saranghein">
+        <img src="https://github.com/saranghein.png" width="120" height="120" alt="이해인"/>
+        <br/>
+        <b>이해인</b>
+      </a>
+      <br/>
+      Backend
+    </td>
+    <td align="center" width="180">
+      <a href="https://github.com/kimjusnu">
+        <img src="https://github.com/kimjusnu.png" width="120" height="120" alt="김준수"/>
+        <br/>
+        <b>김준수</b>
+      </a>
+      <br/>
+      Frontend · App
+    </td>
+    <td align="center" width="180">
+      <a href="https://github.com/seonghoon1201">
+        <img src="https://github.com/seonghoon1201.png" width="120" height="120" alt="정성훈"/>
+        <br/>
+        <b>정성훈</b>
+      </a>
+      <br/>
+      Product Manager
+    </td>
+    <td align="center" width="180">
+      <a href="https://github.com/eunsuh-park">
+        <img src="https://github.com/eunsuh-park.png" width="120" height="120" alt="박은서"/>
+        <br/>
+        <b>박은서</b>
+      </a>
+      <br/>
+      UX · UI Designer
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+| 이름                                      | 담당 역할              |
+| --------------------------------------- | ------------------ |
+| [백현빈](https://github.com/WhiteBin-bin)  | 백엔드 개발             |
+| [이해인](https://github.com/saranghein)    | 백엔드 개발             |
+| [김준수](https://github.com/kimjusnu)      | 프론트엔드 애플리케이션 개발    |
+| [정성훈](https://github.com/seonghoon1201) | PM 및 프로젝트 기획·일정 관리 |
+| [박은서](https://github.com/eunsuh-park)   | UX/UI 설계 및 서비스 디자인 |
 
 ---
 
