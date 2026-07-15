@@ -361,15 +361,3 @@ API Key, 인증키와 실제 환경변수 파일은 저장소에 업로드하지
 
 * 서비스 구현과 개발 문서: [triplog_app](https://github.com/Triplog11/triplog_app)
 * 개념·논리·물리 데이터 모델링: [triplog-data-modeling](https://github.com/Triplog11/triplog-data-modeling)
-
----
-
-<div align="center">
-
-### Explore. Verify. Record.
-
-새로운 지역을 발견하고,
-여행의 순간을 인증하며,
-나만의 대한민국 지도를 완성합니다.
-
-</div>
