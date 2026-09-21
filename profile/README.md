@@ -341,15 +341,6 @@ TourAPI의 공공 관광정보에 사용자 방문 인증 데이터를 결합하
   </tr>
 </table>
 
-<br/>
-
-| 이름                                      | 담당 역할              |
-| --------------------------------------- | ------------------ |
-| [백현빈](https://github.com/WhiteBin-bin)  | 백엔드 개발             |
-| [이해인](https://github.com/saranghein)    | 백엔드 개발             |
-| [김준수](https://github.com/kimjusnu)      | 프론트엔드 애플리케이션 개발    |
-| [정성훈](https://github.com/seonghoon1201) | PM 및 프로젝트 기획·일정 관리 |
-
 ---
 
 ## 협업 방식
